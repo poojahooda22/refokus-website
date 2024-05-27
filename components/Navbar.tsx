@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Button from './Button'
+import Button from './button/Button'
 
 function Navbar() {
   return (
