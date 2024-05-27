@@ -5,7 +5,7 @@ import Button from './Button'
 
 function Navbar() {
   return (
-    <div className='max-w-screen-xl mx-auto py-[1vw] flex items-center justify-between'>
+    <div className='max-w-screen-xl mx-auto py-[1vw] flex items-center justify-between px-[4vw]'>
         <div className='flex items-center gap-[4vw]'>
             <Image src='/logo.svg' width={32} height={32} alt="" className='w-[5vw]' />
             <div className='flex items-center gap-[3vw]'>
@@ -14,7 +14,7 @@ function Navbar() {
                         <div key={index} className=''>
                             <Link href="/">
                                 <p className='text-[.8vw] flex items-center gap-[.2vw]'>
-                                    {index === 1 && <span className='inline-block w-[.2vw] h-[.2vw] rounded-full bg-green-500'></span> }
+                                    {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.2vw] h-[.2vw] rounded-full bg-green-500'></span> }
                                     {item}
                                 </p>
                             </Link>  
