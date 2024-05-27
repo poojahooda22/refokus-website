@@ -9,9 +9,8 @@ function Button() {
             <h5 className='text-[.8vw]'>Start a Project</h5>
         </div>
         <div className='h-[1.4vw] overflow-hidden'>
-
             <Image src='/icon.svg' width={8} height={8} alt="" className='w-[1vw]' />
-
+            <Image src='/icon.svg' width={8} height={8} alt="" className='w-[1vw]' />
         </div>
     </div>
   )
