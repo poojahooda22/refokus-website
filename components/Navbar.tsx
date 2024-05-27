@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Button from './Button'
 
 function Navbar() {
   return (
-    <div className='max-w-screen-xl mx-auto py-[1vw] flex items-center justify-center'>
+    <div className='max-w-screen-xl mx-auto py-[1vw] flex items-center justify-between'>
         <div className='flex items-center gap-[4vw]'>
             <Image src='/logo.svg' width={32} height={32} alt="" className='w-[5vw]' />
             <div className='flex items-center gap-[3vw]'>
@@ -23,7 +24,7 @@ function Navbar() {
             </div>   
         </div>
 
-      
+        <Button />  
     </div>
   )
 }
