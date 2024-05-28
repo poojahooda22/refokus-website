@@ -37,23 +37,23 @@ function Header() {
 
             {/* // Mobile Menu */}
             <motion.div
-                    animate={!isActive ? "closed" : "open"}
-                    onMouseDown={() => {setIsActive(!isActive)}}
+                animate={!isActive ? "closed" : "open"}
+                onMouseDown={() => {setIsActive(!isActive)}}
                     
             >
-                    <motion.h3 
-                        variants={opacity} 
-                        animate={isActive ? "closed" : "open"}
-                    >
-                        <HiOutlineMenuAlt4 size={28} />
-                    </motion.h3>
-                    <motion.h3 
-                        variants={opacity} 
-                        animate={!isActive ? "closed" : "open"} 
-                        className='' 
-                    >
-                        <IoCloseOutline size={28} />
-                    </motion.h3>
+                <motion.h3 
+                    variants={opacity} 
+                    animate={isActive ? "closed" : "open"}
+                >
+                    <HiOutlineMenuAlt4 size={28} />
+                </motion.h3>
+                <motion.h3 
+                    variants={opacity} 
+                    animate={!isActive ? "closed" : "open"} 
+                    className='' 
+                >
+                    <IoCloseOutline size={28} />
+                </motion.h3>
                     
             </motion.div>
         </div>
