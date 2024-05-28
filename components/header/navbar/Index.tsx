@@ -7,7 +7,7 @@ import Button from '../../button/Button'
 function Navbar() {
   return (
     <div className=''>
-                 
+             Hello    
     </div>
   )
 }
