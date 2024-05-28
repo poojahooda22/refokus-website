@@ -6,8 +6,9 @@ import React from 'react'
 import Button from '../button/Button'
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { IoCloseOutline } from "react-icons/io5";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { opacity } from './anime';
+import Navbar from './navbar/Index'
 
 function Header() {
     const [isActive, setIsActive] = React.useState(false)
@@ -58,7 +59,9 @@ function Header() {
                 </motion.h3>    
             </motion.div>
 
-            
+            <AnimatePresence mode="wait">
+                {isActive && <Navbar />}
+            </AnimatePresence>
         </div>
     )
 }
