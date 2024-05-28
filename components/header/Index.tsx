@@ -45,14 +45,14 @@ function Header() {
                 <motion.h3 
                     variants={opacity} 
                     animate={isActive ? "closed" : "open"}
-                    className=''
+                    className='w-[12vw] h-[12vw] bg-comp '
                 >
-                    <HiOutlineMenuAlt4 size={28} />
+                    <HiOutlineMenuAlt4 size={28} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
                 </motion.h3>
                 <motion.h3 
                     variants={opacity} 
                     animate={!isActive ? "closed" : "open"} 
-                    className='' 
+                    className='absolute top-0' 
                 >
                     <IoCloseOutline size={28} />
                 </motion.h3>
