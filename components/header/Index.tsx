@@ -55,9 +55,10 @@ function Header() {
                     className='relative'  
                 >
                     <IoCloseOutline size={28} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
-                </motion.h3>
-                    
+                </motion.h3>    
             </motion.div>
+
+            
         </div>
     )
 }
