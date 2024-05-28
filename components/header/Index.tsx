@@ -59,9 +59,9 @@ function Header() {
                 </motion.h3>    
             </motion.div>
 
-            <AnimatePresence mode="wait">
+            {/* <AnimatePresence mode="wait">
                 {isActive && <Navbar />}
-            </AnimatePresence>
+            </AnimatePresence> */}
         </div>
     )
 }
