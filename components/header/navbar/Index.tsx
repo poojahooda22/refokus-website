@@ -7,7 +7,10 @@ import {motion} from 'framer-motion'
 
 function Navbar() {
   return (
-    <motion.div className='bg-secondary w-full h-[100vh] text-primary'>
+    <motion.div 
+      initial="initial" animate="enter" exit="exit"
+      className='bg-secondary w-full h-[100vh] text-primary'
+    >
       Hello    
     </motion.div>
   )
