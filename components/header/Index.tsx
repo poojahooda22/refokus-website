@@ -39,20 +39,20 @@ function Header() {
             <motion.div
                     animate={!isActive ? "closed" : "open"}
                     onMouseDown={() => {setIsActive(!isActive)}}
-                    className={`sm:hidden`}
+                    
             >
                     <motion.h3 
                         variants={opacity} 
                         animate={isActive ? "closed" : "open"}
                     >
-                        <HiOutlineMenuAlt4 className=' text-[3.8vw] sm:text-[1.2vw]' />
+                        <HiOutlineMenuAlt4 size={28} />
                     </motion.h3>
                     <motion.h3 
                         variants={opacity} 
                         animate={!isActive ? "closed" : "open"} 
-                        className='absolute' 
+                        className='' 
                     >
-                        <IoCloseOutline className='text-[3.8vw] sm:text-[1.2vw]' />
+                        <IoCloseOutline size={28} />
                     </motion.h3>
                     
             </motion.div>
