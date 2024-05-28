@@ -44,7 +44,6 @@ function Header() {
                     <motion.h3 
                         variants={opacity} 
                         animate={isActive ? "closed" : "open"}
-
                     >
                         <HiOutlineMenuAlt4 className=' text-[3.8vw] sm:text-[1.2vw]' />
                     </motion.h3>
