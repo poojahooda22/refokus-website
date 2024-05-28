@@ -3,8 +3,8 @@ import React from 'react'
 
 function Button() {
   return (
-    <div className='px-[1vw] h-[2vw]  bg-white rounded-full flex items-center gap-[.5vw] justify-center'>
-        <div className='h-[1.4vw] ctaWrapper overflow-hidden text-black '>
+    <div className='px-[1vw] h-[2vw]  bg-secondary rounded-full flex items-center gap-[.5vw] justify-center'>
+        <div className='h-[1.4vw] ctaWrapper overflow-hidden text-primary '>
             <h5 className='text-[.8vw] '>Start a Project</h5>
             <h5 className='text-[.8vw]'>Start a Project</h5>
         </div>
