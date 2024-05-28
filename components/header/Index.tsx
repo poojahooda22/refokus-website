@@ -1,11 +1,16 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Button from '../button/Button'
-import { RiMenu3Fill } from "react-icons/ri";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
+import { IoCloseOutline } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { opacity } from './anime';
 
 function Header() {
-    const [isOpen, setIsOpen] = React.useState(false)
+    const [isActive, setIsActive] = React.useState(false)
 
     return (
         <div className='max-w-screen-2xl mx-auto sm:py-[1vw] flex items-center justify-between py-[6vw] px-[5vw] sm:px-0 '>
@@ -31,9 +36,20 @@ function Header() {
             </div>
 
             {/* // Mobile Menu */}
-            <div className='sm:hidden'>
-                <RiMenu3Fill size={24} />
-            </div>          
+            <motion.div
+                    animate={!isActive ? "closed" : "open"}
+                    onMouseDown={() => {setIsActive(!isActive)}}
+                    className={`sm:hidden`}
+            >
+                    <motion.h3 
+                        variants={opacity} 
+                        animate={isActive ? "closed" : "open"}
+
+                    >
+                        <HiOutlineMenuAlt4 className=' text-[3.8vw] sm:text-[1.2vw]' />
+                    </motion.h3>
+                    
+            </motion.div>
         </div>
     )
 }
