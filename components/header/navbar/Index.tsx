@@ -1,17 +1,46 @@
-import Image from 'next/image'
+'use client'
+
+import React, { useState } from 'react'
 import Link from 'next/link'
-import React from 'react'
 import Button from '../../button/Button'
 import {motion} from 'framer-motion'
+import { menuSlide } from '../anime';
+import { usePathname } from 'next/navigation';
+
+const navItems = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "Work",
+    href: "/work",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+]
 
 
 function Navbar() {
+  const pathname = usePathname();
+  const [selectedIndicator, setSelectedIndicator] = useState(pathname);
   return (
     <motion.div 
-      initial="initial" animate="enter" exit="exit"
-      className='bg-secondary w-full h-[100vh] text-primary'
+      initial="initial" animate="enter" exit="exit" variants={menuSlide} 
+      className='bg-secondary w-full h-[100vh] text-primary '
     >
-      Hello    
+      {
+        navItems.map( (data, index) => {
+          return (
+            <p key={index}>{data.title}</p>
+          )
+      })    }
     </motion.div>
   )
 }
