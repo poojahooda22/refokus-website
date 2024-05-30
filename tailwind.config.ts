@@ -17,8 +17,8 @@ const config: Config = {
     screens: {
       sm: '480px',
       md: '768px',
-      lg: '976px',
-      xl: '1840px',
+      lg: '1076px',
+      xl: '1640px',
     },
     colors: {
       primary: '#000',
