@@ -32,7 +32,7 @@ function Navbar() {
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
   return (
     <motion.div 
-      initial="initial" animate="enter" exit="exit" variants={menuSlide} 
+      initial="initial" animate="enter" exit="exit" 
       className='bg-secondary w-full h-[100vh] text-primary '
     >
       {
