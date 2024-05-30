@@ -22,7 +22,7 @@ const Header = forwardRef(function Index(props, ref){
 
     return (
         <>
-            <div className={styles.header} style={{padding: "1.2vw", overflow: "hidden"}}>
+            <div className={styles.header} style={{ overflow: "hidden"}}>
                 <div className='flex items-center gap-[4vw]'>
                     <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
                     <div className='hidden sm:flex items-center gap-[3vw]'>
