@@ -4,14 +4,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, {useEffect} from 'react'
 import Button from '../button/Button'
-import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { IoCloseOutline } from "react-icons/io5";
+import { forwardRef } from 'react'
 import { motion, AnimatePresence } from "framer-motion";
 import { opacity } from './anime';
 import Navbar from './navbar/Index'
+import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
+import styles from './style.module.scss'
 
-function Header() {
+const Header = forwardRef(function Index(props, ref){
     const [isActive, setIsActive] = React.useState(false)
     const pathname = usePathname();
 
@@ -21,12 +22,11 @@ function Header() {
 
     return (
         <>
-            <div className='max-w-screen-2xl mx-auto  fixed w-full 
-            sm:py-[1vw] flex items-center justify-between py-[6vw] px-[5vw] sm:px-0 '>
+            <div className={styles.header} style={{padding: "1.2vw", overflow: "hidden"}}>
                 <div className='flex items-center gap-[4vw]'>
                     <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
                     <div className='hidden sm:flex items-center gap-[3vw]'>
-                        {["Home", "Work", "About", "News", "Careers"].map((item, index) => {
+                        {["Home", "Work", "About"].map((item, index) => {
                             return (
                                 <div key={index} className=''>
                                     <Link href="/">
@@ -40,41 +40,21 @@ function Header() {
                         })}
                     </div>   
                 </div>
-                <div className='hidden sm:inline-block'>
+                <div className='hidden'>
                     <Button />  
                 </div>
-
-                {/* // Mobile Menu */}
-                {/* <motion.div
-                    animate={!isActive ? "closed" : "open"}
-                    onMouseDown={() => {setIsActive(!isActive)}}
-                    className='flex items-center justify-center sm:hidden cursor-pointer pr-2'
-                        
-                >
-                    <motion.h3 
-                        variants={opacity} 
-                        animate={isActive ? "closed" : "open"}
-                        className='relative '
-                    >
-                        <HiOutlineMenuAlt4 size={28} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
-                    </motion.h3>
-                    <motion.h3 
-                        variants={opacity} 
-                        animate={!isActive ? "closed" : "open"} 
-                        className='relative'  
-                    >
-                        <IoCloseOutline size={28} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
-                    </motion.h3>    
-                </motion.div> */}
-            
-            
-
+                
+                <Magnetic>
+                    <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
+                        <div ref={ref} className={styles.bounds}></div>
+                    </div>
+                </Magnetic>
+            </div>
             <AnimatePresence mode="wait">
                 {isActive && <Navbar />}
             </AnimatePresence>
-            </div>
         </>
     )
-}
+})
 
 export default Header
