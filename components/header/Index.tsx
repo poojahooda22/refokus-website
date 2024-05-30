@@ -11,6 +11,8 @@ import Navbar from './navbar/Index'
 import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
 import styles from './style.module.scss'
+import { gsap} from 'gsap'
+
 
 const Header = forwardRef(function Index(props, ref){
     const [isActive, setIsActive] = React.useState(false)
