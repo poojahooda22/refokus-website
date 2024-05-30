@@ -26,13 +26,13 @@ const Header = forwardRef(function Index(props, ref){
         <div className='w-screen flex  justify-center'>
             <div className={`${styles.header} max-w-screen-xl mx-auto py-[1vw] lg:px-[5vw] xl:px-0`} style={{ overflow: "hidden"}}>
                 <div className='flex items-center gap-[4vw]'>
-                    <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[5vw]' />
-                    <div className='hidden sm:flex items-center gap-[3vw]'>
+                    <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] lg:w-[8vw] xl:w-[5vw]' />
+                    <div className='hidden xl:flex items-center gap-[3vw]'>
                         {["Home", "Work", "About"].map((item, index) => {
                             return (
                                 <div key={index} className=''>
                                     <Link href="/">
-                                        <p className='text-[.8vw] flex items-center gap-[.3vw]'>
+                                        <p className=' sm:text-[.8vw] flex items-center gap-[.3vw]'>
                                             {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span> }
                                             {item}
                                         </p>
