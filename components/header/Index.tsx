@@ -32,8 +32,8 @@ const Header = forwardRef(function Index(props, ref){
                             return (
                                 <div key={index} className=''>
                                     <Link href="/">
-                                        <p className='text-[.8vw] flex items-center gap-[.2vw]'>
-                                            {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.2vw] h-[.2vw] rounded-full bg-comp'></span> }
+                                        <p className='text-[.8vw] flex items-center gap-[.3vw]'>
+                                            {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span> }
                                             {item}
                                         </p>
                                     </Link>  
