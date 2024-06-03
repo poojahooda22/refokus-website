@@ -14,7 +14,8 @@ function Hero() {
         </div>
         <div className='lg:flex items-end justify-between'>
           <div className='text-[12vw] leading-[11vw] sm:text-[12vw] sm:leading-[10vw] md:text-[5vw] md:leading-[8vw]
-          lg:text-[8vw] lg:leading-[7vw] xl:text-[6vw] xl:leading-[5vw] uppercase tracking-tighter'>
+            lg:text-[8vw] lg:leading-[7vw] xl:text-[6vw] xl:leading-[5vw] uppercase tracking-tighter'
+          >
             <h1>We</h1>
             <h1>make</h1>
             <h1>cool</h1>
