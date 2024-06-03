@@ -15,6 +15,16 @@ import { gsap} from 'gsap'
 
 
 const Header = forwardRef(function Index(props, ref){
+    const data = [
+        {
+            title: "Home",
+            link: "/"
+        },
+        {
+            title: "Work",
+            link: "/work"
+        }
+    ]
     const [isActive, setIsActive] = React.useState(false)
     const pathname = usePathname();
 
