@@ -1,6 +1,9 @@
 import React from 'react'
 
 function WorkPage() {
+  const images = [
+    
+  ]
   return (
     <div className='w-full'>
         <div className='max-w-screen-xl mx-auto pt-[8vw] text-center'>
