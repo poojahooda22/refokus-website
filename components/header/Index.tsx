@@ -10,7 +10,7 @@ import Navbar from './navbar/Index'
 import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
 import styles from './style.module.scss';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 
 const Header = forwardRef(function Index(props, ref){
@@ -31,11 +31,11 @@ const Header = forwardRef(function Index(props, ref){
         }
     ]
     const [isActive, setIsActive] = React.useState(false)
-    const pathname = usePathname();
+    const pathname1 = usePathname();
 
     useEffect( () => {
         if(isActive) setIsActive(false)
-    }, [pathname])
+    }, [pathname1])
 
     return (
         <div className='w-screen flex  justify-center'>
@@ -48,7 +48,7 @@ const Header = forwardRef(function Index(props, ref){
                                 <div key={index} className=''>
                                     <Link href={item.link}>
                                         <p className=' sm:text-[.8vw] flex items-center gap-[.3vw]'>
-                                            {router.pathname === item.link && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span>}
+                                            {pathname1 === item.link && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span>}
                                             {item.title}
                                         </p>
                                     </Link>  
