@@ -59,7 +59,7 @@ export default function Index({stickyElement}: any) {
    
   }
 
-  const manageMouseOver = () => {
+  const manageMouseOver = e => {
     setIsHovered(true);
   }
   const manageMouseLeave = e => {
@@ -68,15 +68,15 @@ export default function Index({stickyElement}: any) {
   }
 
   useEffect( () => {
-    window.addEventListener("mousemove", manageMouseMove)
-    stickyElement.current.addEventListener("mouseover", manageMouseOver)
+    stickyElement.current.addEventListener("mouseenter", manageMouseOver)
     stickyElement.current.addEventListener("mouseleave", manageMouseLeave)
+    window.addEventListener("mousemove", manageMouseMove);
     return () => {
-      window.removeEventListener("mousemove", manageMouseMove)
-      stickyElement.current.removeEventListener("mouseover", manageMouseOver)
+      stickyElement.current.removeEventListener("mouseenter", manageMouseOver)
       stickyElement.current.removeEventListener("mouseleave", manageMouseLeave)
+      window.removeEventListener("mousemove", manageMouseMove)
     }
-  })
+  }, [isHovered])
 
   const template = ({rotate, scaleX, scaleY}: any) => {
     return `rotate(${rotate}) scaleX(${scaleX}) scaleY(${scaleY})` 
@@ -95,7 +95,6 @@ export default function Index({stickyElement}: any) {
       }}
       animate={{width: cursorSize, height: cursorSize}}
     >
-    
     </motion.div>
   )
 }
