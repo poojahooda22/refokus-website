@@ -16,7 +16,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
+      url: "",
       top: 0,
       left: 0,
       isActive: false
