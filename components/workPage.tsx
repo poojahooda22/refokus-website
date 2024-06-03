@@ -2,7 +2,10 @@ import React from 'react'
 
 function WorkPage() {
   const images = [
-    
+    {
+      url: "",
+      
+    }
   ]
   return (
     <div className='w-full'>
