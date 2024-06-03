@@ -13,14 +13,17 @@ function Hero() {
           </div>
         </div>
         <div className='lg:flex items-end justify-between'>
-          <div className='text-[12vw] leading-[11vw] sm:text-[12vw] sm:leading-[12vw] 
-          lg:text-[9vw] lg:leading-[8vw] xl:text-[6vw] xl:leading-[5vw] uppercase tracking-tighter'>
+          <div className='text-[12vw] leading-[11vw] sm:text-[12vw] sm:leading-[10vw] md:text-[5vw] md:leading-[8vw]
+          lg:text-[8vw] lg:leading-[7vw] xl:text-[6vw] xl:leading-[5vw] uppercase tracking-tighter'>
             <h1>We</h1>
             <h1>make</h1>
             <h1>cool</h1>
             <h1>websites</h1>
           </div>
-          <div className='sm:w-1/2 lg:w-1/3 sm:text-[2.2vw] text-[4vw] mt-[8vw] sm:mt-[4vw] lg:mt-0 lg:text-[1.2vw] xl:text-[1vw]'>
+          <div 
+            className='sm:w-1/2 lg:w-1/3 sm:text-[2.2vw] text-[4vw] mt-[8vw] 
+            sm:mt-[4vw] lg:mt-0 lg:text-[1.2vw] xl:text-[1vw]'
+          >
             <p>Refokus is a forward-thinking web agency that combines Web Design, Webflow Development, and Creative Development to create cool websites that help brands position themselves as market leaders.</p>
           </div>
         </div>  
