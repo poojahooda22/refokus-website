@@ -28,7 +28,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "//assets-global.websles.comf231f0_Summon.png",
+      url: "//assets-global.websles.comf231f0_Supng",
       top: 0,
       left: 0,
       isActive: false
