@@ -4,6 +4,7 @@ function WorkPage() {
   const images = [
     {
       url: "",
+      top: 0,
       
     }
   ]
