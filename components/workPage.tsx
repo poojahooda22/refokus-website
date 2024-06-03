@@ -28,7 +28,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "//as",
+      url: "//s",
       top: 0,
       left: 0,
       isActive: false
