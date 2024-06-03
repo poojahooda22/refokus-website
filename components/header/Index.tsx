@@ -11,7 +11,6 @@ import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
 import styles from './style.module.scss';
 
-import { gsap} from 'gsap'
 import { useRouter } from 'next/router'
 
 
