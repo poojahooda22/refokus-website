@@ -1,6 +1,6 @@
 import React from 'react'
 
-function workPage() {
+function WorkPage() {
   return (
     <div className='w-full'>
         <div className='max-w-screen-xl mx-auto pt-[8vw] text-center'>
@@ -10,4 +10,4 @@ function workPage() {
   )
 }
 
-export default workPage
+export default WorkPage
