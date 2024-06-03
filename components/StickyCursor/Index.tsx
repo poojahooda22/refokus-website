@@ -76,7 +76,7 @@ export default function Index({stickyElement}: any) {
       stickyElement.current.removeEventListener("mouseenter", manageMouseOver)
       stickyElement.current.removeEventListener("mouseleave", manageMouseLeave)
     }
-  })
+  }, [isHovered])
 
   const template = ({rotate, scaleX, scaleY}: any) => {
     return `rotate(${rotate}) scaleX(${scaleX}) scaleY(${scaleY})` 
