@@ -10,11 +10,15 @@ import { opacity } from './anime';
 import Navbar from './navbar/Index'
 import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
-import styles from './style.module.scss'
+import styles from './style.module.scss';
+
 import { gsap} from 'gsap'
+import { useRouter } from 'next/router'
 
 
 const Header = forwardRef(function Index(props, ref){
+    const router = useRouter()
+
     const data = [
         {
             title: "Home",
@@ -47,7 +51,8 @@ const Header = forwardRef(function Index(props, ref){
                                 <div key={index} className=''>
                                     <Link href={item.link}>
                                         <p className=' sm:text-[.8vw] flex items-center gap-[.3vw]'>
-                                            {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span> }
+                                            
+                                            
                                             {item.title}
                                         </p>
                                     </Link>  
