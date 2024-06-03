@@ -28,7 +28,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "//assetsg",
+      url: "//assets",
       top: 0,
       left: 0,
       isActive: false
