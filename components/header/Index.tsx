@@ -18,15 +18,15 @@ const Header = forwardRef(function Index(props, ref){
     const data = [
         {
             title: "Home",
-            link: "/"
+            link: '/'
         },
         {
             title: "Work",
-            link: "/work"
+            link: '/work'
         },
         {
             title: "About",
-            link: "/about"
+            link: '/about'
         }
     ]
     const [isActive, setIsActive] = React.useState(false)
