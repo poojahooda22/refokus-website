@@ -73,7 +73,7 @@ export default function Index({stickyElement}: any) {
     stickyElement.current.addEventListener("mouseleave", manageMouseLeave)
     return () => {
       window.removeEventListener("mousemove", manageMouseMove)
-      stickyElement.current.removeEventListener("mouseover", manageMouseOver)
+      stickyElement.current.removeEventListener("mouseenter", manageMouseOver)
       stickyElement.current.removeEventListener("mouseleave", manageMouseLeave)
     }
   })
