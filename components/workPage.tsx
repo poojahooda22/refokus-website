@@ -22,7 +22,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png",
+      url: "",
       top: 0,
       left: 0,
       isActive: false
