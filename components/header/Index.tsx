@@ -45,7 +45,7 @@ const Header = forwardRef(function Index(props, ref){
                         {data.map((item, index) => {
                             return (
                                 <div key={index} className=''>
-                                    <Link href="/">
+                                    <Link href={item.link}>
                                         <p className=' sm:text-[.8vw] flex items-center gap-[.3vw]'>
                                             {index === 1 && <span style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span> }
                                             {item.title}
