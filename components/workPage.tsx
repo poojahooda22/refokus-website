@@ -28,7 +28,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "//assets-global.webslng",
+      url: "//assets-gslng",
       top: 0,
       left: 0,
       isActive: false
