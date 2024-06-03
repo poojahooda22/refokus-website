@@ -23,6 +23,10 @@ const Header = forwardRef(function Index(props, ref){
         {
             title: "Work",
             link: "/work"
+        },
+        {
+            title: "About",
+            link: "/about"
         }
     ]
     const [isActive, setIsActive] = React.useState(false)
