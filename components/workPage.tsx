@@ -6,7 +6,7 @@ function WorkPage() {
       url: "",
       top: 0,
       left: 0,
-      
+      isActive: false
     }
   ]
   return (
