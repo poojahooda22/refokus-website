@@ -12,7 +12,8 @@ function Hero() {
               src='/iconLogo.svg' 
               width={32} height={32} 
               alt="" 
-              className='w-[5vw] sm:w-[4vw] lg:w-[1.8vw] xl:w-[1.5vw]'
+              className='w-[5vw] sm:w-[4vw] 
+              lg:w-[1.8vw] xl:w-[1.5vw]'
             />
           </div>
         </div>
