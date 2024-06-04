@@ -54,7 +54,7 @@ const Header = forwardRef(function Index(props, ref){
                                                     className='inline-block w-[.3vw] h-[.3vw] 
                                                     rounded-full bg-comp'
                                                 >
-                                                    </span>}
+                                                </span>}
                                             {item.title}
                                         </p>
                                     </Link>  
