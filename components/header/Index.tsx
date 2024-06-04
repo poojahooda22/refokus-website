@@ -55,7 +55,7 @@ const Header = forwardRef(function Index(props, ref){
                                                     rounded-full bg-comp'
                                                 >
                                                 </span>
-                                                }
+                                            }
                                             {item.title}
                                         </p>
                                     </Link>  
