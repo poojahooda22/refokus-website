@@ -28,7 +28,7 @@ function WorkPage() {
       isActive: false
     },
     {
-      url: "",
+      url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png",
       top: 0,
       left: 0,
       isActive: false
