@@ -11,7 +11,7 @@ function Button() {
       <div className='h-[.5vw] ctaIcon overflow-hidden'>
             <Image src='/icon.svg' width={8} height={8} alt="" className='w-[.9vw]' />
             <Image src='/icon.svg' width={8} height={8} alt="" className='w-[.9vw]' />
-        </div>
+      </div>
     </div>
   )
 }
