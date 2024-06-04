@@ -9,7 +9,7 @@ function Hero() {
           <div className='w-1/2 h-[4vw]'></div>
           <div className='w-[8vw] h-[12vw] sm:w-[3vw] 
             sm:h-[2vw] flex items-center'
-            >
+          >
             <Image 
               src='/iconLogo.svg' 
               width={32} height={32} 
