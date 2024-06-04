@@ -40,7 +40,7 @@ const Header = forwardRef(function Index(props, ref){
     return (
         <div className='w-screen flex  justify-center'>
             <div 
-            className={`${styles.header} max-w-screen-xl mx-auto py-[1vw] px-[5vw] sm:px-[5vw] lg:px-[5vw] xl:px-0`} style={{ overflow: "hidden"}}>
+                className={`${styles.header} max-w-screen-xl mx-auto py-[1vw] px-[5vw] sm:px-[5vw] lg:px-[5vw] xl:px-0`} style={{ overflow: "hidden"}}>
                 <div className='flex items-center gap-[4vw]'>
                     <Image src='/logo.svg' width={32} height={32} alt="" className='w-[20vw] sm:w-[12vw] lg:w-[8vw] xl:w-[5vw]' />
                     <div className='hidden xl:flex items-center gap-[3vw]'>
