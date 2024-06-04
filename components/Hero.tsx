@@ -40,7 +40,8 @@ function Hero() {
           >
             <p>Refokus is a forward-thinking web agency 
               that combines Web Design, Webflow Development, 
-              and Creative Development to create cool websites that help brands position themselves as market leaders.</p>
+              and Creative Development to create cool websites 
+              that help brands position themselves as market leaders.</p>
           </div>
         </div>  
       </div>
