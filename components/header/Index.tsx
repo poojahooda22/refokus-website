@@ -50,7 +50,7 @@ const Header = forwardRef(function Index(props, ref){
                                         <p className=' sm:text-[.8vw] flex items-center gap-[.3vw]'>
                                             {pathname1 === item.link && 
                                                 <span 
-                                                style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span>}
+                                                    style={{boxShadow:'0 0 0.25em #00FF19'}} className='inline-block w-[.3vw] h-[.3vw] rounded-full bg-comp'></span>}
                                             {item.title}
                                         </p>
                                     </Link>  
