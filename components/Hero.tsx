@@ -37,7 +37,8 @@ function Hero() {
             <h1>websites</h1>
           </div>
           <div 
-            className='sm:w-1/2 lg:w-1/3 sm:text-[2.2vw] 
+            className='sm:w-1/2 lg:w-1/3 
+            sm:text-[2.2vw] 
             text-[4vw] mt-[8vw] 
             sm:mt-[4vw] lg:mt-0 lg:text-[1.2vw] 
             xl:text-[1vw]'
