@@ -35,7 +35,8 @@ function Hero() {
           <div 
             className='sm:w-1/2 lg:w-1/3 sm:text-[2.2vw] 
             text-[4vw] mt-[8vw] 
-            sm:mt-[4vw] lg:mt-0 lg:text-[1.2vw] xl:text-[1vw]'
+            sm:mt-[4vw] lg:mt-0 lg:text-[1.2vw] 
+            xl:text-[1vw]'
           >
             <p>Refokus is a forward-thinking web agency that combines Web Design, Webflow Development, and Creative Development to create cool websites that help brands position themselves as market leaders.</p>
           </div>
