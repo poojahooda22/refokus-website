@@ -43,7 +43,9 @@ function WorkPage() {
             <div className='absolute top-0 w-full h-full'>
                 {images.map((elem, index) => {
                   return (
-                    <img key={index} src={elem.url} alt="" />
+                    <img key={index} src={elem.url} alt=""
+                      
+                    />
                   )
                 })}
             </div>
