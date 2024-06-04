@@ -8,7 +8,7 @@ function Hero() {
         flex flex-col gap-[10vw] px-[5vw] xl:px-0 mt-[20vw] 
         sm:mt-[6vw] lg:mt-[6vw] xl:mt-0'
       >
-        <div className='flex items-end justify-end '>
+        <div className='flex items-end justify-end'>
           <div className='w-1/2 h-[4vw]'></div>
           <div className='w-[8vw] h-[12vw] sm:w-[3vw] 
             sm:h-[2vw] flex items-center'
