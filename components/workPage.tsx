@@ -38,20 +38,20 @@ function WorkPage() {
 
   return (
     <div className='w-full'>
-        <div className='relative max-w-screen-xl mx-auto pt-[20vw] xl:pt-[8vw] text-center'>
-            <h1 className='lg:text-[28vw] font-medium leading-none'>work</h1>
+        <div className='relative max-w-screen-xl mx-auto pt-[40vw] sm:pt-[20vw] lg:pt-[10vw] xl:pt-[8vw] text-center'>
+            <h1 className='text-[30vw] lg:text-[28vw] -rotate-90 font-medium leading-none'>work</h1>
             <div className='absolute top-0 w-full h-full'>
                 {images.map((elem, index) => (
                   elem.isActive && (
                     <img key={index} src={elem.url} alt=""
-                      className='absolute w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
+                      className='absolute w-[40vw] sm:w-[20vw] xl:w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
                       style={{top: elem.top, left: elem.left}}
                     />
                   )
                 )
                 )}
             </div>
-            <p className='xl:text-[1vw] font-regular text-[#787878]'>Web Design, Webflow Development, Creative Development</p>
+            <p className='text-[4.2vw] sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878]'>Web Design, Webflow Development, Creative Development</p>
         </div>
     </div>
   )
