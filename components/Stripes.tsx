@@ -6,7 +6,7 @@ function Stripes() {
         {
             url: "",
             number: "",
-            title: "CSSDesignAwards"
+            
 
         }
     ]
