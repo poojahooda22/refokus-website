@@ -46,7 +46,7 @@ function WorkPage() {
           </div>
             
             <div className='absolute top-0 w-full h-full'>
-                {images.map((elem, index) => (
+              {images.map((elem, index) => (
                   elem.isActive && (
                     <img key={index} src={elem.url} alt=""
                       className='absolute w-[40vw] sm:w-[20vw] xl:w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
