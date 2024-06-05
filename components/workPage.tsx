@@ -61,7 +61,7 @@ function WorkPage() {
               sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878]'
             >
               Web Design, Webflow Development, Creative Development
-              </p>   
+            </p>   
         </div>
     </div>
   )
