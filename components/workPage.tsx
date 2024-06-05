@@ -38,8 +38,10 @@ function WorkPage() {
 
   return (
     <div className='w-full'>
-        <div className='relative max-w-screen-xl mx-auto pt-[40vw] sm:pt-[20vw] lg:pt-[10vw] xl:pt-[8vw] text-center'>
-            <h1 className='text-[30vw] lg:text-[28vw] -rotate-90 font-medium leading-none'>work</h1>
+        <div className='relative max-w-screen-xl mx-auto pt-[80vw] sm:pt-[20vw] lg:pt-[10vw] xl:pt-[8vw] text-center'>
+            <h1 className='text-[40vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute top-1/2'>work</h1>
+            {/* <h1 className='text-[40vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute'>work</h1>
+            <h1 className='text-[40vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute '>work</h1> */}
             <div className='absolute top-0 w-full h-full'>
                 {images.map((elem, index) => (
                   elem.isActive && (
