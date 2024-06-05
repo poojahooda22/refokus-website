@@ -7,7 +7,7 @@ function WorkPage() {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
       top: "60%",
       left: "50%",
-      isActive: false
+      isActive: true
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
@@ -41,14 +41,15 @@ function WorkPage() {
         <div className='relative max-w-screen-xl mx-auto pt-[8vw] text-center'>
             <h1 className='lg:text-[28vw] font-medium leading-none'>work</h1>
             <div className='absolute top-0 w-full h-full'>
-                {images.map((elem, index) => {
-                  return (
+                {images.map((elem, index) => (
+                  elem.isActive && (
                     <img key={index} src={elem.url} alt=""
                       className='absolute w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
                       style={{top: elem.top, left: elem.left}}
                     />
                   )
-                })}
+                )
+                )}
             </div>
         </div>
     </div>
