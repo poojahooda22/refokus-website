@@ -5,6 +5,7 @@ import React from 'react'
 import WorkPage from '@/components/workPage'
 import Cursor from "@/components/StickyCursor/Index";
 import { useRef} from 'react';
+import Stripes from '@/components/Stripes';
 
 function Work() {
     const stickyElement = useRef(null);
@@ -13,6 +14,7 @@ function Work() {
         <Cursor stickyElement={stickyElement} />
         <Header/>
         <WorkPage/>
+        <Stripes/>
     </div>
   )
 }
