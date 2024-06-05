@@ -2,7 +2,7 @@ import React from 'react'
 
 function Stripe() {
   return (
-    <div>
+    <div className='max-w-72 px-'>
       Hello
     </div>
   )
