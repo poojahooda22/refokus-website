@@ -10,7 +10,7 @@ import Stripes from '@/components/Stripes';
 function Work() {
     const stickyElement = useRef(null);
   return (
-    <div className='w-screen h-[100vh] relative bg-primary text-secondary'>
+    <div className='w-screen h-[100vh] relative bg-primary text-secondary '>
         <Cursor stickyElement={stickyElement} />
         <Header/>
         <WorkPage/>
