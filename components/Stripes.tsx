@@ -9,10 +9,10 @@ function Stripes() {
         },
         {
             url: "https://assets-global.website-files.com/6334198f23…3689fb_css-design-awards-logos-id1L9L8Yvp%201.svg",
-            number: "15",
+            number: "52",
         },
         {
-            url: "",
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63d6e83420934a94d642103b_NCC2021_LogoLockup%201.svg",
             number: "15",
         }
     ]
