@@ -14,7 +14,7 @@ function Work() {
         <Cursor stickyElement={stickyElement} />
         <Header/>
         <WorkPage/>
-        <Stripes/>
+        {/* <Stripes/> */}
     </div>
   )
 }
