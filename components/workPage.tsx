@@ -44,7 +44,8 @@ function WorkPage() {
                 {images.map((elem, index) => {
                   return (
                     <img key={index} src={elem.url} alt=""
-                      className=' w-60 rounded-lg '
+                      className='absolute w-[16vw] rounded-lg -translate-x-1/2'
+                      style={{top: elem.top, left: elem.left}}
                     />
                   )
                 })}
