@@ -14,6 +14,10 @@ function Stripes() {
         {
             url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63d6e83420934a94d642103b_NCC2021_LogoLockup%201.svg",
             number: "2",
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63d6e83420934a94d642103b_NCC2021_LogoLockup%201.svg",
+            number: "2",
         }
     ]
   return (
