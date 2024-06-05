@@ -18,7 +18,9 @@ function Stripes() {
     ]
   return (
     <div>
-      <Stripe />
+        {data.map((elem, index) => (
+            <Stripe key={index} val={elem} />
+        ))}
     </div>
   )
 }
