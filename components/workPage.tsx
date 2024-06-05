@@ -5,32 +5,32 @@ function WorkPage() {
   const images = [
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
-      top: "60%",
+      top: "45%",
       left: "50%",
-      isActive: false
+      isActive: true
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
       top: "56%",
-      left: "45%",
+      left: "40%",
       isActive: false
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png",
-      top: "47%",
-      left: "52%",
+      top: "45%",
+      left: "55%",
       isActive: false
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0ac7e7179d210dc41f0_Summon.png",
-      top: "60%",
+      top: "65%",
       left: "49%",
-      isActive: true
+      isActive: false
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png",
-      top: "53%",
-      left: "58%",
+      top: "75%",
+      left: "65%",
       isActive: false
     },
 
