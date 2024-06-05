@@ -7,7 +7,7 @@ function WorkPage() {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
       top: "60%",
       left: "50%",
-      isActive: true
+      isActive: false
     },
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
@@ -38,7 +38,7 @@ function WorkPage() {
 
   return (
     <div className='w-full'>
-        <div className='relative max-w-screen-xl mx-auto pt-[8vw] text-center'>
+        <div className='relative max-w-screen-xl mx-auto pt-[20vw] xl:pt-[8vw] text-center'>
             <h1 className='lg:text-[28vw] font-medium leading-none'>work</h1>
             <div className='absolute top-0 w-full h-full'>
                 {images.map((elem, index) => (
@@ -51,6 +51,7 @@ function WorkPage() {
                 )
                 )}
             </div>
+            <p className='xl:text-[1vw] font-regular text-[#787878]'>Web Design, Webflow Development, Creative Development</p>
         </div>
     </div>
   )
