@@ -54,7 +54,7 @@ function WorkPage() {
                     />
                   )
                 )
-                )}
+              )}
             </div>
             
             <p className='hidden sm:inline-block text-[4.2vw] sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878]'>Web Design, Webflow Development, Creative Development</p>   
