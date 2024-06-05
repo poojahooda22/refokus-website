@@ -37,7 +37,7 @@ function WorkPage() {
   ]
 
   return (
-    <div className='w-full h-[100vh] sm:flex sm:items-center sm:justify-center overflow-hidden'>
+    <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center overflow-hidden'>
         <div className='relative max-w-screen-xl mx-auto text-center'>
           <div className='relative flex gap-2 pt-[60vw] sm:pt-0'>
             <h1 className='text-[52vw] lg:text-[28vw] -rotate-90 sm:rotate-0 font-medium leading-none absolute top-2/5 sm:relative -ml-8 sm:ml-0 '>work</h1>
