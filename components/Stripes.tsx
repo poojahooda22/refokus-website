@@ -5,6 +5,7 @@ function Stripes() {
     var data = [
         {
             url: "",
+            
 
         }
     ]
