@@ -5,7 +5,8 @@ function Stripes() {
     var data = [
         {
             url: "",
-            number: "48"
+            number: "",
+            title: "CSSDesignAwards"
 
         }
     ]
