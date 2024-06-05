@@ -1,9 +1,10 @@
 import React from 'react'
+import Product from './Product'
 
 function Products() {
   return (
-    <div>
-        Products
+    <div className='mt-[6vw]'>
+        <Product/>
     </div>
   )
 }
