@@ -12,7 +12,7 @@ function Product({val}: {val: any}) {
             </p>
             <div>
               {val.live && <Button text='Live Website' />}
-              {}
+              {val.case && <Button text='Case Study' />}
             </div>
             
        </div>
