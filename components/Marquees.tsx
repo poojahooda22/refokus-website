@@ -30,7 +30,7 @@ function Marquees() {
         ]
     ]
   return (
-    <div>
+    <div className='py-[8vw] mt-[2vw]'>
       {images.map((item, index) => 
         <Marquee key={index} imagesurl={item} />
         )}
