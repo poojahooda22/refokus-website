@@ -3,7 +3,7 @@ import React from 'react'
 
 function Marquee({imagesUrl}: {imagesUrl: any}) {
     return (
-        <div>
+        <div className=''>
                 {imagesUrl.map((url: string) => <img  src={url} className='' alt=""/>)}
         </div>
     )
