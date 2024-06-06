@@ -41,7 +41,7 @@ function Products() {
 
     ]
   return (
-    <div className='mt-[6vw]'>
+    <div className='mt-[8vw]'>
         {data.map((elem, index) => (
             <Product key={index} val={elem} />
         ))}
