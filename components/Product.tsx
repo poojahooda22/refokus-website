@@ -8,7 +8,7 @@ function Product({val}: {val: any}) {
        <h2 className='text-[2vw] font-medium'>{val.title}</h2>
        <div className='w-1/3 flex flex-col gap-[1vw]'>
             <p className='w-3/4 text-[.9vw] leading-[1.5vw]'>
-                {val.desc}
+              {val.desc}
             </p>
             <div className='flex items-center gap-[1vw]'>
               {val.live && <Button text='Live Website' />}
