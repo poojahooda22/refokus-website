@@ -13,7 +13,8 @@ function Products() {
         {
             title: 'Cula',
             desc: "We immersed ourselves in a 3D world we created to explain how Cula's platform collects data from carbon removal processes and converts them into carbon credit certificates.",
-            url: 'https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4'
+            url: 'https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4',
+            
         },
         {
             title: 'Layout Land',
