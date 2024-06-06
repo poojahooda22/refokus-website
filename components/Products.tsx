@@ -22,7 +22,7 @@ function Products() {
             desc: 'An interactive learning game that can educate and entertain you on the basics of web layouts in Webflow.',
             url: 'https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4',
             live: true,
-            case: false
+            case: true
         },
         {
             title: 'Maniv',
