@@ -31,7 +31,9 @@ function Marquees() {
     ]
   return (
     <div>
-      
+      {images.map((item, index) => 
+        <Marquee key={index} imagesUrl={item} />
+        )}
     </div>
   )
 }
