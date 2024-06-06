@@ -31,7 +31,7 @@ function Marquees() {
     ]
   return (
     <div>
-      <Marquee />
+      
     </div>
   )
 }
