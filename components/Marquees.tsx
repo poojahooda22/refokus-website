@@ -32,7 +32,7 @@ function Marquees() {
   return (
     <div>
       {images.map((item, index) => 
-        <Marquee key={index} imagesUrl={item} />
+        <Marquee key={index} imagesurl={item} />
         )}
     </div>
   )
