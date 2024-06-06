@@ -20,7 +20,8 @@ function Products() {
         {
             title: 'Layout Land',
             desc: 'An interactive learning game that can educate and entertain you on the basics of web layouts in Webflow.',
-            url: 'https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4'
+            url: 'https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4',
+            
         },
         {
             title: 'Maniv',
