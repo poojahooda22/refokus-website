@@ -10,7 +10,7 @@ function Product({val}: {val: any}) {
             <p className='w-3/4 text-[.9vw] leading-[1.5vw]'>
                 {val.desc}
             </p>
-            <div>
+            <div className=''>
               {val.live && <Button text='Live Website' />}
               {val.case && <Button text='Case Study' />}
             </div>
