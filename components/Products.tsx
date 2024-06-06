@@ -27,7 +27,8 @@ function Products() {
         {
             title: 'Maniv',
             desc: 'A global early-stage venture fund partnering with founders to advance cleaner, safer, and more sustainable movement of people and goods.',
-            url: 'https://cdn.refokus.com/website/Maniv-Compressed.mp4'
+            url: 'https://cdn.refokus.com/website/Maniv-Compressed.mp4',
+            
         },
         {
             title: 'Singularity',
