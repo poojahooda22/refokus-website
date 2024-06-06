@@ -15,7 +15,10 @@ function Marquees() {
           {url: 'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/65b2d36963b956910ca67534_remind.svg'}, 
           {url: 'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/65b2ce14e6c85b010c2e1e3c_Logo%20White%201.svg'}
         ],
-        []
+        [
+            {url: 'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/65b2d275a4f001b08a4e28bc_weglot.svg'},
+            
+        ]
     ]
   return (
     <div>
