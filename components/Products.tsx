@@ -28,12 +28,13 @@ function Products() {
             title: 'Maniv',
             desc: 'A global early-stage venture fund partnering with founders to advance cleaner, safer, and more sustainable movement of people and goods.',
             url: 'https://cdn.refokus.com/website/Maniv-Compressed.mp4',
-            
+
         },
         {
             title: 'Singularity',
             desc: 'A new site for Singularity that supports their growth and showcases their true identity as industry innovators.',
-            url: 'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm'
+            url: 'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm',
+            
         },
 
     ]
