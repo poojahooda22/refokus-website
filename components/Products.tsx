@@ -35,7 +35,8 @@ function Products() {
             title: 'Singularity',
             desc: 'A new site for Singularity that supports their growth and showcases their true identity as industry innovators.',
             url: 'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm',
-
+            live: true,
+            case: false
         },
 
     ]
