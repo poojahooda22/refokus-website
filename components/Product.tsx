@@ -11,9 +11,10 @@ function Product({val}: {val: any}) {
                 {val.desc}
             </p>
             <div>
-              
+              {val.live && <Button text='Live Website' />}
+              {}
             </div>
-            <Button text='Live Website' />
+            
        </div>
       </div>
     </div>
