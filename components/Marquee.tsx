@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Marquee() {
+function Marquee({imagesUrl}: {imagesUrl: any}) {
   return (
     <div>
-      <div>
-        Hello
-      </div>
+      {imagesUrl.map()}
     </div>
   )
 }
