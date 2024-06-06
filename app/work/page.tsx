@@ -7,6 +7,7 @@ import Cursor from "@/components/StickyCursor/Index";
 import { useRef} from 'react';
 import Stripes from '@/components/Stripes';
 import Products from '@/components/Products';
+import Marquees from '@/components/Marquees';
 
 function Work() {
     const stickyElement = useRef(null);
@@ -17,6 +18,7 @@ function Work() {
         <WorkPage/>
         <Stripes/>
         <Products/>
+        <Marquees/>
     </div>
   )
 }
