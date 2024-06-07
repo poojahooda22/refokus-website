@@ -30,10 +30,19 @@ function Stripes() {
 
     ]
   return (
-    <div className='flex'>
-        {data.map((elem, index) => (
-            <Stripe key={index} val={elem} />
-        ))}
+    <div className=' '>
+        <p 
+              className=' sm:hidden text-[4.2vw]  text-center
+              sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878] mb-[4vw]'
+            >
+              Web Design, Webflow Development, Creative Development
+        </p> 
+        <div className='hidden w-full sm:flex'>
+            {data.map((elem, index) => (
+                <Stripe key={index} val={elem} />
+            ))}
+        </div>
+        
     </div>
   )
 }
