@@ -11,6 +11,10 @@ function Card({width}: {width: string}) {
             </div>
             <h3>Insights and behind the scenes</h3>
         </div> 
+
+        <div>
+            <p>Explore </p>
+        </div>
     </div>
   )
 }
