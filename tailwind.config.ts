@@ -23,7 +23,9 @@ const config: Config = {
     colors: {
       primary: '#000',
       secondary: '#FFF',
-      comp: '#00FF19'
+      comp: '#00FF19',
+      gray: '#29292e',
+      gray2: '#323238'
     }
   },
   plugins: [],
