@@ -10,6 +10,7 @@ function Cards() {
                 toptitle2='Insights and behind the scenes'
                 start={false} 
                 para={true}
+                button={false}
             />
             <Card 
                 width="w-2/3" 
