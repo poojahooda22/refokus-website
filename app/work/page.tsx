@@ -8,6 +8,7 @@ import { useRef} from 'react';
 import Stripes from '@/components/Stripes';
 import Products from '@/components/Products';
 import Marquees from '@/components/Marquees';
+import Cards from '@/components/Cards';
 
 function Work() {
     const stickyElement = useRef(null);
@@ -19,6 +20,7 @@ function Work() {
         <Stripes/>
         <Products/>
         <Marquees/>
+        <Cards/>
     </div>
   )
 }
