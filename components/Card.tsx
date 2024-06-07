@@ -23,21 +23,13 @@ function Card({width, toptitle, toptitle2, start, para}:
                 <>
                     <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
                     <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>Contact us</button>
-                </>
-                
+                </>               
                 :  null
             }
             {
                 para === true ? <p className='text-[.7vw] text-gray3'>Explore what drives our team.</p>
                 :  null
-            }
-            {
-                button === true ? 
-                :  null
-            }
-            
-           
-            
+            }        
         </div>
     </div>
   )
