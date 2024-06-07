@@ -7,7 +7,8 @@ function Cards() {
         <div className='max-w-screen-xl mx-auto flex gap-4 '>
             <Card width="w-1/3" 
                 toptitle='Up Next: News' 
-                toptitle2='Insights and behind the scenes' />
+                toptitle2='Insights and behind the scenes' 
+                />
             <Card width="w-2/3" toptitle='Get In Touch' toptitle2="Let's get to it, together."/>
         </div>
     </div>
