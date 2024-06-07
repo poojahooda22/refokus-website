@@ -10,7 +10,8 @@ function Cards() {
                 toptitle2='Insights and behind the scenes' 
             />
             <Card 
-                width="w-2/3" toptitle='Get In Touch' toptitle2="Let's get to it, together."/>
+                width="w-2/3" 
+                toptitle='Get In Touch' toptitle2="Let's get to it, together."/>
         </div>
     </div>
   )
