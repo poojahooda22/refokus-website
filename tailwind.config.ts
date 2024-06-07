@@ -25,7 +25,9 @@ const config: Config = {
       secondary: '#FFF',
       comp: '#00FF19',
       gray: '#29292e',
-      gray2: '#323238'
+      gray2: '#323238',
+      gray3: '#bdbbc2',
+
     }
   },
   plugins: [],
