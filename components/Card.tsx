@@ -18,11 +18,19 @@ function Card({width, toptitle, toptitle2, start, para}:
         </div> 
 
         <div className='down w-full mt-[8vw]'>
-            <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+            {
+                start === true ? <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+                :  null
+            }
+            {
+                para === true ? <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+                :  null
+            }
+            
             <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>
                 Contact us
             </button>
-            <p className='text-[.7vw] text-gray3'>Explore what drives our team.</p>
+            
         </div>
     </div>
   )
