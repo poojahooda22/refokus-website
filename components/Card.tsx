@@ -27,7 +27,7 @@ function Card({width, toptitle, toptitle2, start, para, button}:
                 :  null
             }
             {
-                para === true ? <p className='text-[.7vw] text-gray3'>Explore what drives our team.</p>
+                button === true ? <p className='text-[.7vw] text-gray3'>Explore what drives our team.</p>
                 :  null
             }
             
