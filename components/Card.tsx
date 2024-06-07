@@ -19,7 +19,11 @@ function Card({width, toptitle, toptitle2, start, para}:
 
         <div className='down w-full mt-[8vw]'>
             {
-                start === true ? <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+                start === true ? 
+                <>
+                </>
+                <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+                <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>Contact us</button>
                 :  null
             }
             {
@@ -27,7 +31,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                 :  null
             }
             {
-                button === true ?  <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>Contact us</button>
+                button === true ? 
                 :  null
             }
             
