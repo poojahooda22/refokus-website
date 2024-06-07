@@ -31,9 +31,7 @@ function Card({width, toptitle, toptitle2, start, para, button}:
                 :  null
             }
             
-            <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>
-                Contact us
-            </button>
+           
             
         </div>
     </div>
