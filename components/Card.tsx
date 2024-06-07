@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Card({width, toptitle, toptitle2}: {width: string, toptitle: string, toptitle2?: string}) {
+function Card({width, toptitle, toptitle2, start, para}: 
+    {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean}
+    ) {
   return (
     <div className={` ${width}  bg-gray rounded-lg py-[1vw] px-[1vw]`}>
         <div className='w-full'>
