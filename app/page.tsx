@@ -1,6 +1,7 @@
 
 'use client'
 import Hero from "@/components/Hero";
+import Marquees from "@/components/Marquees";
 import Cursor from "@/components/StickyCursor/Index";
 import Header from "@/components/header/Index";
 import { useRef,  useEffect } from 'react';
@@ -17,10 +18,11 @@ export default function Home() {
 
   const stickyElement = useRef(null);
   return (
-    <main className="w-full h-screen bg-primary text-secondary font-[satoshi_variable]">
+    <main className="w-full min-h-screen bg-primary text-secondary font-[satoshi_variable] overflow-hidden">
       <Header ref={stickyElement} />
       <Cursor stickyElement={stickyElement} />
       <Hero />
+      <Marquees />
     </main>
   );
 }
