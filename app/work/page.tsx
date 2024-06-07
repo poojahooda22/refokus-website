@@ -12,7 +12,7 @@ import Marquees from '@/components/Marquees';
 function Work() {
     const stickyElement = useRef(null);
   return (
-    <div className='w-full min-h-[100vh] relative bg-primary text-secondary '>
+    <div className='w-full min-h-[100vh] relative bg-primary text-secondary overflow-hidden'>
         <Cursor stickyElement={stickyElement} />
         <Header/>
         <WorkPage/>
