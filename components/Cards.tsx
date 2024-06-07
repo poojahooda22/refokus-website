@@ -9,13 +9,13 @@ function Cards() {
                 toptitle='Up Next: News' 
                 toptitle2='Insights and behind the scenes'
                 start={false} 
-                para={false}
+                para={true}
             />
             <Card 
                 width="w-2/3" 
                 toptitle='Get In Touch' 
                 toptitle2="Let's get to it, together."
-                start={false}
+                start={true}
                 para={false}
             />
         </div>
