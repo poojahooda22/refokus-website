@@ -23,7 +23,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                 :  null
             }
             {
-                para === true ? <h1 className='text-[5vw] font-medium leading-none'>Start a Project </h1>
+                para === true ? <p className='text-[.7vw] text-gray3'>Explore what drives our team.</p>
                 :  null
             }
             
