@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Card({width, toptitle, toptitle2, start, para, button}: 
+function Card({width, toptitle, toptitle2, start, para}: 
     {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean, button?: boolean}
     ) {
   return (
