@@ -18,6 +18,7 @@ function Cards() {
                 toptitle2="Let's get to it, together."
                 start={true}
                 para={false}
+                button={false}
             />
         </div>
     </div>
