@@ -3,7 +3,7 @@ import React from 'react'
 
 function Card({width, toptitle, toptitle2}: {width: string, toptitle: string, toptitle2?: string}) {
   return (
-    <div className={`${width}  bg-gray rounded-lg py-[1vw] px-[1vw]`}>
+    <div className={` ${width}  bg-gray rounded-lg py-[1vw] px-[1vw]`}>
         <div className='w-full'>
             <div className='flex items-center justify-between mb-[1vw]'>
                 <p className='text-[.7vw]'>{toptitle}</p>
