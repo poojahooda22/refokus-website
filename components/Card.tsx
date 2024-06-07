@@ -20,7 +20,7 @@ function Card({width, toptitle, toptitle2}: {width: string, toptitle: string, to
             <button className='text-[.8vw] px-[1.3vw] py-[.7vw] rounded-full mt-[1vw] border-[1px] border-secondary'>
                 Contact us
             </button>
-
+            <p>Explore what drives our team.</p>
         </div>
     </div>
   )
