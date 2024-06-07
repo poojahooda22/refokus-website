@@ -3,7 +3,9 @@ import React from 'react'
 function Cards() {
   return (
     <div className='w-full'>
-        <div></div>
+        <div className='max-w-screen-xl mx-auto '>
+            hey
+        </div>
     </div>
   )
 }
