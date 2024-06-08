@@ -17,8 +17,7 @@ function Project({val}: {val: any}) {
                     <Image src={val.image1} alt="" 
                     width={1000} height={100}
                     className='w-[16vw] rounded-2xl' />
-                </div>
-                
+                </div>    
             </div> 
             <Image src={val.image2} alt="" 
             width={1000} height={32}
