@@ -10,9 +10,7 @@ function ContactForm() {
         </p>
       </div>
       <div>
-        <p>
-          Don’t like forms? 
-        </p>
+        
       </div>
 
     </div>
