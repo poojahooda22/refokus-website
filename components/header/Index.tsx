@@ -40,7 +40,7 @@ const Header = forwardRef(function Index(props, ref){
     return (
         <div className='w-screen flex  justify-center'>
             <div 
-                className={`${styles.header} max-w-screen-xl mx-auto py-[2vw] px-[5vw] sm:py-[1vw] sm:px-[5vw] lg:px-[5vw] xl:px-0`} 
+                className={`${styles.header} max-w-screen-xl mx-auto py-[2vw] bg-primary px-[5vw] sm:py-[1vw] sm:px-[5vw] lg:px-[5vw] xl:px-0`} 
                 style={{ overflow: "hidden"}}
             >
                 <div className='flex items-center gap-[4vw]'>
@@ -67,9 +67,9 @@ const Header = forwardRef(function Index(props, ref){
                         })}
                     </div>   
                 </div>
-                <div className='hidden'>
-                    <Button />  
-                </div>    
+                {/* <div className='hidden'>
+                    <Button    />  
+                </div>     */}
                 <Magnetic>
                     <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
                         <div ref={ref} className={styles.bounds}></div>
