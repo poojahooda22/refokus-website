@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import Button from './button/Button'
 
 function Projects() {
     const data =[
@@ -22,10 +23,10 @@ function Projects() {
             heading: "We immersed ourselves in a 3D world we created to explain how Cula's platform collects data from carbon removal processes and converts them into carbon credit certificates."
         },
         {
-            image1: '',
-            image2: '',
-            logo: '',
-            videoUrl: '',
+            image1: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cd6ec7666ac6009cfcb7db_11.jpg',
+            image2: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cd6ecc885579ba1b4ffc97_10.jpg',
+            logo: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/660191edcdb42d79ba8c23aa_Logo.svg',
+            videoUrl: 'https://cdn.refokus.com/website/TTR/TTR%20project%20video%204_3_H.264.webm',
             bg: '#3e4365',
             desc: 'Concept, Design, 3D, Webflow+WebGL Development, AI Integrations',
             heading: "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai, industry trends and design."
@@ -34,10 +35,16 @@ function Projects() {
     ]
   return (
     <div className='w-full py-[4vw]'>
-        <div className='max-w-screen-xl mx-auto flex flex-col gap-[2vw]'>
-            {data.map((elem, index) => (
-                <Project key={index} val={elem} />
-            ))}
+        <div className='max-w-screen-xl mx-auto '>
+            <div className='flex flex-col gap-[2vw]'>
+                {data.map((elem, index) => (
+                    <Project key={index} val={elem} />
+                ))}
+            </div>
+            <div className='mt-[4vw] flex items-center justify-center'>
+                <Button text='View More Work' />
+            </div>
+            
         </div>
     </div>
   )
