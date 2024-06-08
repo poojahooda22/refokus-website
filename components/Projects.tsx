@@ -35,13 +35,13 @@ function Projects() {
     ]
   return (
     <div className='w-full py-[4vw]'>
-        <div className='max-w-screen-xl mx-auto '>
-            <div className='flex flex-col gap-[2vw]'>
+        <div className='max-w-screen-xl mx-auto px-[5vw] sm:px-0'>
+            <div className='flex flex-col gap-[8vw] sm:gap-[2vw]'>
                 {data.map((elem, index) => (
                     <Project key={index} val={elem} />
                 ))}
             </div>
-            <div className='mt-[4vw] flex items-center justify-center'>
+            <div className='mt-[4vw] hidden sm:flex items-center justify-center'>
                 <Button text='View More Work' />
             </div>
             
