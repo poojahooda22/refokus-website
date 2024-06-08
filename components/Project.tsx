@@ -4,7 +4,7 @@ import Button from './button/Button'
 
 function Project({val}: {val: any}) {
   return (
-    <div className='w-full py-[2vw] px-[2vw] bg-blue rounded-2xl flex gap-[1vw]'>
+    <div className={`w-full py-[2vw] px-[2vw] rounded-2xl flex gap-[1vw]`} style={{ backgroundColor: val.bg }}>
         <div className='w-1/2 flex flex-col items-start gap-[1.5vw] '>
             <h2 className=''>
                 <Image src={val.logo}
