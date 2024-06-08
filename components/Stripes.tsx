@@ -33,7 +33,7 @@ function Stripes({padding}: {padding: string}) {
     <div className={`${padding}`}>
         <p 
             className='hidden sm:hidden text-[4.2vw]  text-center
-              sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878] pt-[12vw]'
+            sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878] pt-[12vw]'
             >
               Web Design, Webflow Development, Creative Development
         </p> 
