@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import {motion, useScroll} from 'framer-motion'
 
 function WorkPage() {
 
@@ -36,6 +38,9 @@ function WorkPage() {
 
   ]
 
+  const {scrollY} = useScroll();
+  
+
   return (
     <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center  mb-[8vw] sm:mb-0'>
         <div className='relative max-w-screen-xl mx-auto text-center'>
@@ -48,7 +53,7 @@ function WorkPage() {
             <div className='absolute sm:top-0 w-full h-full'>
               {images.map((elem, index) => (
                 elem.isActive && (
-                  <img key={index} src={elem.url} alt=""
+                  <Image key={index} src={elem.url} alt="" width={1000} height={100}
                     className='absolute w-[40vw] sm:w-[20vw] xl:w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
                     style={{top: elem.top, left: elem.left}}
                   />
