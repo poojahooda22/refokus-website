@@ -19,7 +19,16 @@ function Projects() {
             videoUrl: 'https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4',
             bg: '#4a576b',
             desc: 'Concept, Design, 3D, Webflow+WebGL Development',
-            heading: "With a continuous 3D animation, we showcase Arqitel approach and show how migration data translates into real estate."
+            heading: "We immersed ourselves in a 3D world we created to explain how Cula's platform collects data from carbon removal processes and converts them into carbon credit certificates."
+        },
+        {
+            image1: '',
+            image2: '',
+            logo: '',
+            videoUrl: '',
+            bg: '#3e4365',
+            desc: 'Concept, Design, 3D, Webflow+WebGL Development, AI Integrations',
+            heading: "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai, industry trends and design."
         },
 
     ]
