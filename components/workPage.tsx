@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {motion, useScroll} from 'framer-motion'
+import {motion, useScroll, useMotionValueEvent} from 'framer-motion'
 
 function WorkPage() {
 
@@ -39,7 +39,10 @@ function WorkPage() {
   ]
 
   const {scrollY} = useScroll();
-  
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    console.log("Page scroll: ", latest)
+  })
 
   return (
     <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center  mb-[8vw] sm:mb-0'>
