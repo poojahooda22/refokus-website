@@ -1,5 +1,6 @@
 
 'use client'
+import Cards from "@/components/Cards";
 import Hero from "@/components/Hero";
 import Marquees from "@/components/Marquees";
 import Cursor from "@/components/StickyCursor/Index";
@@ -23,6 +24,7 @@ export default function Home() {
       <Cursor stickyElement={stickyElement} />
       <Hero />
       <Marquees />
+      <Cards />
     </main>
   );
 }
