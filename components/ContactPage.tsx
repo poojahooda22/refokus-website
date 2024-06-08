@@ -3,7 +3,9 @@ import React from 'react'
 function ContactForm() {
   return (
     <div>
-      Contact form
+      <div>
+        
+      </div>
     </div>
   )
 }
