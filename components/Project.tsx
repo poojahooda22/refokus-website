@@ -4,7 +4,8 @@ import Button from './button/Button'
 
 function Project({val}: {val: any}) {
   return (
-    <div className={`w-full sm:py-[2vw] py-[4vw] px-[4vw] sm:px-[2vw] rounded-2xl flex gap-[1vw]`} 
+    <div 
+        className={`w-full sm:py-[2vw] py-[4vw] px-[4vw] sm:px-[2vw] rounded-2xl flex gap-[1vw]`} 
         style={{ backgroundColor: val.bg }}>
         <div className='sm:w-1/2 flex flex-col items-start gap-[1.5vw] '>
             <h2 className=''>
