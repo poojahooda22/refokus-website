@@ -9,13 +9,15 @@ function Projects() {
             logo: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/64c1cdf5425388ed4532f603_Arqitel%20Logo%20White.svg',
             videoUrl: 'https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm',
             desc: 'Concept, Design, 3D, Webflow+WebGL Development',
+            bg: '#5355ee',
             heading: "With a continuous 3D animation, we showcase Arqitel approach and show how migration data translates into real estate."
         },
         {
-            image1: '',
-            image2: '',
-            logo: '',
-            videoUrl: '',
+            image1: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b413200259aa2289224594_Frame%204-p-500.png',
+            image2: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41324914b470b20ec7d03_Frame%203.png',
+            logo: 'https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b4127d91ec4fa9b1124008_Logo%20White%202.svg',
+            videoUrl: 'https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4',
+            bg: '#4a576b',
             desc: 'Concept, Design, 3D, Webflow+WebGL Development',
             heading: "With a continuous 3D animation, we showcase Arqitel approach and show how migration data translates into real estate."
         },
@@ -23,7 +25,7 @@ function Projects() {
     ]
   return (
     <div className='w-full py-[4vw]'>
-        <div className='max-w-screen-xl mx-auto '>
+        <div className='max-w-screen-xl mx-auto flex flex-col gap-[2vw]'>
             {data.map((elem, index) => (
                 <Project key={index} val={elem} />
             ))}
