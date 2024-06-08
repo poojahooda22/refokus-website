@@ -4,7 +4,7 @@ function ContactForm() {
   return (
     <div>
       <div>
-        
+        <h1>Don't Be Shy with us</h1>
       </div>
     </div>
   )
