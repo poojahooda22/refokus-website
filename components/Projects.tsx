@@ -3,7 +3,7 @@ import Project from './Project'
 
 function Projects() {
   return (
-    <div>
+    <div className='w-full py-[4vw]'>
       <Project />
     </div>
   )
