@@ -12,7 +12,7 @@ function Product({val}: {val: any}) {
           </p>
           <div className='flex items-center gap-[1vw]'>
             {val.live && <Button text='Live Website' />}
-              {val.case && <Button text='Case Study' />}
+            {val.case && <Button text='Case Study' />}
           </div>      
        </div>
       </div>
