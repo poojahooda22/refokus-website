@@ -37,7 +37,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                 
             }
             {
-                para  true ? <p className='text-[3vw] sm:text-[.7vw] text-gray3'>Explore what drives our team.</p>
+                para e ? <p className='text-[3vw] sm:text-[.7vw] text-gray3'>Explore what drives our team.</p>
                 :  null
             }        
         </div>
