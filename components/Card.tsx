@@ -37,7 +37,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                                 border-[1px] border-secondary'
                             >
                                 Contact us
-                                </button>
+                            </button>
                         </Link>
                     </>               
                 
