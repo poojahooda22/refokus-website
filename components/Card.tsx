@@ -34,7 +34,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                             sm:py-[.5vw] rounded-full sm:mt-[1vw] border-[1px] border-secondary'>Contact us</button>
                         </Link>
                     </>               
-                :  null
+                  null
             }
             {
                 para === true ? <p className='text-[3vw] sm:text-[.7vw] text-gray3'>Explore what drives our team.</p>
