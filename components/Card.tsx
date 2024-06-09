@@ -35,7 +35,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                                 py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
                                 sm:py-[.5vw] rounded-full sm:mt-[1vw] 
                                 border-[1px] border-secondary'
-                                >Contact us</button>
+                            >Contact us</button>
                         </Link>
                     </>               
                 
