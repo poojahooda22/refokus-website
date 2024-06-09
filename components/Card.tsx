@@ -28,7 +28,8 @@ function Card({width, toptitle, toptitle2, start, para}:
             {
                 start &&  
                     <>
-                        <h1 className='text-[12vw] sm:text-[5vw] font-medium leading-none'>Start a Project </h1>
+                        <h1 className='text-[12vw] sm:text-[5vw] font-medium leading-none'>
+                            Start a Project </h1>
                         <Link href="/contact">
                             <button 
                                 className='text-[3vw] sm:text-[.8vw]
