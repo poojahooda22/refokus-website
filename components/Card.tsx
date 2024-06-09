@@ -26,7 +26,7 @@ function Card({width, toptitle, toptitle2, start, para}:
 
         <div className='down w-full'>
             {
-                start && true ? 
+                start &&  ? 
                     <>
                         <h1 className='text-[12vw] sm:text-[5vw] font-medium leading-none'>Start a Project </h1>
                         <Link href="/contact">
