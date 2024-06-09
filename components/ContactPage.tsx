@@ -4,7 +4,7 @@ function ContactForm() {
   return (
     <div>
       <div>
-        <h1>Don't Be Shy with us</h1>
+        <h1 className='text-[4vw]'>Don't Be Shy with us</h1>
         <p>
           Don’t like forms? 
         </p>
