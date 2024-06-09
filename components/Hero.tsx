@@ -44,7 +44,8 @@ function Hero() {
             lg:text-[1.2vw] 
             xl:text-[1vw]'
           >
-            <p>Refokus is a forward-thinking web agency 
+            <p>
+              Refokus is a forward-thinking web agency 
               that combines Web Design, Webflow Development, 
               and Creative Development to create cool websites 
               that help brands position themselves as market leaders.</p>
