@@ -41,7 +41,7 @@ function Projects() {
                     <Project key={index} val={elem} />
                 ))}
             </div>
-            <div className='mt-[4vw] hidden sm:flex items-center justify-center'>
+            <div className='mt-[4vw] flex items-center justify-center'>
                 <button 
                     className='text-[3vw] sm:text-[.8vw]
                     py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
