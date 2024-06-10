@@ -42,16 +42,13 @@ function WorkPage() {
 
   const {scrollYProgress} = useScroll();
 
-  
-
-  function showHideImages(scrollval: number) {
-    switch(scrollval) {
-      case 1:
-        console.log("first");
-      case 2:
-        console.log("second");
+  scrollYProgress.on("change", (data) => {
+    function imagesShow(arr) {
+      setImages(prev => (
+        arr.indexOf()
+      ))
     }
-  }
+  })
 
   return (
     <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center  mb-[8vw] sm:mb-0'>
