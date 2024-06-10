@@ -10,7 +10,7 @@ function WorkPage() {
         url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
         top: "45%",
         left: "50%",
-        isActive: true
+        isActive: false
       },
       {
         url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
@@ -32,8 +32,8 @@ function WorkPage() {
       },
       {
         url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png",
-        top: "75%",
-        left: "65%",
+        top: "70%",
+        left: "55%",
         isActive: false
       },
   
@@ -46,7 +46,11 @@ function WorkPage() {
     function imagesShow(arr: any) {
       setImages(prev => (
         prev.map((item, index) => (
-          arr.indexOf(item)
+          arr.indexOf(index) === -1 ? (
+            {...item, isActive: false}
+          ) : (
+            {...item, isActive: true}
+          )
         ))
       ))
     }
@@ -59,16 +63,16 @@ function WorkPage() {
         imagesShow([0])
         break;
       case 2:
-        imagesShow([0,1])
+        imagesShow([0, 1])
         break;
       case 3:
-        imagesShow([0,1,2])
+        imagesShow([0, 1, 2])
         break;
       case 4:
-        imagesShow([0,1,2,3])
+        imagesShow([0, 1, 2, 3])
         break;
-      case 5:
-        imagesShow([0,1,2,3,4])
+      case 6:
+        imagesShow([0, 1, 2, 3, 4])
         break;
     }
   })
@@ -86,7 +90,7 @@ function WorkPage() {
               {images.map((elem, index) => (
                 elem.isActive && (
                   <Image key={index} src={elem.url} alt="" width={1000} height={100}
-                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[16vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
+                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[14vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
                     style={{top: elem.top, left: elem.left}}
                   />
                   )
