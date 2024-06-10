@@ -43,7 +43,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                             >
                                 Contact us
                             </button>
-                        </Link>
+                    </Link>
                 </>               
                 
             }
