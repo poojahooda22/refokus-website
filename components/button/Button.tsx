@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Button({text}: {text: string}) {
+function Button({text, border, borderCol}: {text: string, border?: string, borderCol?: string}) {
   return (
-    <div className='w-fit px-[6vw] py-[3vw] sm:px-[1vw] sm:py-[.3vw] bg-secondary 
-      rounded-full flex items-center gap-[.5vw] justify-center'>
+    <div className={`w-fit px-[6vw] py-[3vw] sm:px-[1vw] sm:py-[.3vw] bg-secondary ${border} ${borderCol}
+      rounded-full flex items-center gap-[.5vw] justify-center`}>
       <div className='h-[4vw] sm:h-[1.5vw] ctaWrapper overflow-hidden text-primary'>
         <h5 className='text-[3.5vw] leading-[4vw] sm:text-[.8vw] sm:leading-[1.4vw]'>{text}</h5>
         <h5 className='text-[3.5vw] leading-[4vw] sm:text-[.8vw] sm:leading-[1.4vw]'>{text}</h5>
