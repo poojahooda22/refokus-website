@@ -50,7 +50,7 @@ function Products() {
         {data.map((elem, index) => (
             <Product key={index} val={elem} />
         ))}
-        
+       
     </div>
   )
 }
