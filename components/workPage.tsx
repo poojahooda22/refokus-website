@@ -43,9 +43,11 @@ function WorkPage() {
   const {scrollYProgress} = useScroll();
 
   scrollYProgress.on("change", (data) => {
-    function imagesShow(arr) {
+    function imagesShow(arr: any) {
       setImages(prev => (
-        arr.indexOf()
+        prev.map((item, index) => (
+          arr.indexOf(item)
+        ))
       ))
     }
 
