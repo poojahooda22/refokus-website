@@ -24,21 +24,24 @@ function Products() {
             desc: 'An interactive learning game that can educate and entertain you on the basics of web layouts in Webflow.',
             url: 'https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4',
             live: true,
-            case: true
+            case: true,
+            bg: '#3e4365'
         },
         {
             title: 'Maniv',
             desc: 'A global early-stage venture fund partnering with founders to advance cleaner, safer, and more sustainable movement of people and goods.',
             url: 'https://cdn.refokus.com/website/Maniv-Compressed.mp4',
             live: true,
-            case: false
+            case: false,
+            bg: '#2dcb76'
         },
         {
             title: 'Singularity',
             desc: 'A new site for Singularity that supports their growth and showcases their true identity as industry innovators.',
             url: 'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm',
             live: true,
-            case: false
+            case: false,
+            bg: '#ff7548'
         },
 
     ]
