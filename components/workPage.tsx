@@ -44,14 +44,13 @@ function WorkPage() {
 
   scrollYProgress.on("change", (data) => {
     function imagesShow(arr: any) {
-      setImages(prev => (
-        prev.map((item, index) => (
+      setImages(prev => 
+        prev.map((item, index) => 
           arr.indexOf(index) === -1 ? 
           {...item, isActive: false}
           : 
           {...item, isActive: true}  
         ))
-      ))
     }
 
     switch (Math.floor(data * 100)) {
