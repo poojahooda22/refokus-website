@@ -42,7 +42,7 @@ function Projects() {
                 ))}
             </div>
             <div className='mt-[4vw] hidden sm:flex items-center justify-center'>
-                <Button text='View More Work' />
+                <Button text='View More Work' border='border-[1px]' />
             </div>
             
         </div>
