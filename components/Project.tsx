@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef } from 'react'
 import Button from './button/Button'
+import { useScroll, useTransform , motion} from 'framer-motion';
 
 function Project({val}: {val: any}) {
   return (
