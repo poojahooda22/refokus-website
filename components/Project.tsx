@@ -35,12 +35,12 @@ function Project({val}: {val: any}) {
                     className=' sm:hidden w-[32vw] py-[4vw] mb-[3vw]'    
                 />
             </h2>
-            <div className='bg-secondary w-full sm:h-[26vw] rounded-2xl overflow-hidden'>
+            <div className='bg-secondary w-full h-[60vw] sm:h-[26vw] rounded-2xl overflow-hidden'>
                 <video src={val.videoUrl}
                     autoPlay
                     muted
                     loop
-                    className=''
+                    className='w-[100%] h-[100%] object-cover'
                 />
             </div>
             <div className='mt-[6vw] sm:mt-[2vw] pl-[1vw]'>
