@@ -11,14 +11,20 @@ function Project({val}: {val: any}) {
     });
 
     const scaleProgress = useTransform(scrollYProgress, [0,1], [0.8, 1]);
-    const opacityProgress = useTransform(scrollYProgress, [0,1], [0.6, 1]);
+    // const opacityProgress = useTransform(scrollYProgress, [0,1], [0.6, 1]);
   return (
-    <div 
+    <motion.div
+        ref={ref}
+        style={{
+            scale: scaleProgress,
+            // opacity: opacityProgress,
+            backgroundColor: val.bg
+        }} 
         className={`w-full sm:py-[2vw] py-[4vw] 
             px-[4vw] sm:px-[2vw] 
             rounded-2xl flex gap-[1vw]`
-        } 
-        style={{ backgroundColor: val.bg }}>
+        }
+    >
         <div className='sm:w-1/2 flex flex-col items-start gap-[1.5vw] '>
             <h2 className=''>
                 <Image src={val.logo}
@@ -59,7 +65,7 @@ function Project({val}: {val: any}) {
             </div>
         </div>
 
-    </div>
+    </motion.div>
   )
 }
 
