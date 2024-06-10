@@ -4,7 +4,7 @@ import Button from './button/Button'
 function Product({val}: {val: any}) {
   return (
     <div 
-      className={`w-full py-5 h-[16vw] transition-transform `}
+      className={`w-full py-5 h-[16vw] transition-transform`}
       style={{ transition: 'background-color 0.3s ease' }}
       onMouseEnter={(e) => e.currentTarget.style.backgroundColor = val.bg}
       onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'initial'}
