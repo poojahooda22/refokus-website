@@ -5,6 +5,7 @@ function Product({val}: {val: any}) {
   return (
     <div 
       className={`w-full py-5 h-[16vw] hover:${val.bg} transition-transform`}
+      style={{background: val.bg}}
     >
       <div className='prodtAnim max-w-screen-xl mx-auto  flex items-center justify-between py-[2vw]'>
        <h2 className='text-[2vw] font-medium'>{val.title}</h2>
