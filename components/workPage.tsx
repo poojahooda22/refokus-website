@@ -48,6 +48,27 @@ function WorkPage() {
         arr.indexOf()
       ))
     }
+
+    switch (Math.floor(data * 100)) {
+      case 0: 
+        imagesShow([])
+        break;
+      case 1:
+        imagesShow([0])
+        break;
+      case 2:
+        imagesShow([0,1])
+        break;
+      case 3:
+        imagesShow([0,1,2])
+        break;
+      case 4:
+        imagesShow([0,1,2,3])
+        break;
+      case 5:
+        imagesShow([0,1,2,3,4])
+        break;
+    }
   })
 
   return (
