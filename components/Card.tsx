@@ -34,7 +34,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                     >
                         Start a Project 
                     </h1>
-                        <Link href="/contact">
+                    <Link href="/contact">
                             <button 
                                 className='text-[3vw] sm:text-[.8vw]
                                 py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
