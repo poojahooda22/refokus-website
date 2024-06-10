@@ -17,7 +17,7 @@ function ContactForm() {
               sm:py-[.5vw] rounded-full sm:mt-[1vw] 
               border-[1px] border-secondary'
             >
-                View more projects
+                
             </button>
           </div>  
         </div>
