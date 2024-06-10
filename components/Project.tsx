@@ -46,7 +46,7 @@ function Project({val}: {val: any}) {
             <div className='mt-[6vw] sm:mt-[2vw] pl-[1vw]'>
                 <p className='text-[3vw] sm:text-[.8vw] mb-[2vw] sm:mb-[.7vw] tracking-tight'>{val.desc}</p>
                 <h3 className='text-[4vw] leading-[5vw] sm:text-[1.1vw] sm:leading-[1.4vw] mb-[8vw] sm:mb-[2vw] tracking-tight'>{val.heading}</h3>
-                <Button text='View Website' />
+                <Button text='View Website' bg='bg-secondary' txt='text-primary'  />
             </div>
         </div>
 
