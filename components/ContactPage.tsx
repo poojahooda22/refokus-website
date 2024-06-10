@@ -21,7 +21,7 @@ function ContactForm() {
             </button>
           </div>  
         </div>
-        {/* //form */}
+        {/* //for */}
         <div></div>
       </div>
     </div>
