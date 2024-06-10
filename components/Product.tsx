@@ -4,7 +4,8 @@ import Button from './button/Button'
 function Product({val}: {val: any}) {
   return (
     <div 
-      className={`w-full py-5 h-[16vw] hover:${val.bg} transition-transform`}>
+      className={`w-full py-5 h-[16vw] hover:${val.bg} transition-transform`}
+    >
       <div className='prodtAnim max-w-screen-xl mx-auto  flex items-center justify-between py-[2vw]'>
        <h2 className='text-[2vw] font-medium'>{val.title}</h2>
        <div className='w-1/3 flex flex-col gap-[1vw]'>
