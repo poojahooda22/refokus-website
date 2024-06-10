@@ -33,7 +33,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                         font-medium leading-none'
                         >
                             Start a Project 
-                        </h1>
+                    </h1>
                         <Link href="/contact">
                             <button 
                                 className='text-[3vw] sm:text-[.8vw]
