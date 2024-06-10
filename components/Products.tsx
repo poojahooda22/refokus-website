@@ -49,7 +49,7 @@ function Products() {
     <div className='hidden sm:block mt-[8vw]'>
         {data.map((elem, index) => (
             <Product key={index} val={elem} />
-     ))}
+        ))}
        
     </div>
   )
