@@ -32,7 +32,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                         className='text-[12vw] sm:text-[5vw] 
                         font-medium leading-none'
                     >
-                            Start a Project 
+                        Start a Project 
                     </h1>
                         <Link href="/contact">
                             <button 
