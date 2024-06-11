@@ -20,7 +20,7 @@ function Faq() {
     ]
     const [expand, setExpand] = useState(false);
 
-    const toogleExpand = () => setExpand(prevExpand => !prevExpand);
+    const toogleExpand = () => setExpand((prevExpand) => !prevExpand);
     
 
   return (
