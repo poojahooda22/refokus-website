@@ -1,4 +1,5 @@
 import React from 'react'
+import Faq from './Faq'
 
 function ContactForm() {
   return (
@@ -21,7 +22,11 @@ function ContactForm() {
             </button>
           </div>  
         </div>
-        {/* //for */}
+
+        <div className='w-1/2 mt-[6vw]'>
+          <Faq /> 
+        </div>
+        {/* //form */}
         <div></div>
       </div>
     </div>
