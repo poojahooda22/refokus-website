@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 function Faq() {
 
     const data =[
-        
+
     ]
     const [expand, setExpand] = useState(false);
 
@@ -23,8 +23,7 @@ function Faq() {
                     <span className='text-[2vw] text-gray2'>
                         {expand ? '-' : '+'}
                     </span>
-                </div>
-            
+                </div>            
             { expand && <div className='text-[.8vw] font-normal'>
             We work with a range from startups to Fortune 500 companies, including some cool niches like Venture Capital firms. Sometimes we work with founders, and other times with marketing managers, but what’s most important is that our 
             clients are ready to break the mold and refocus their brand and website 
@@ -48,14 +47,13 @@ function Faq() {
             className='w-full  cursor-pointer py-[1vw]
              font-regular border-b-[1px] border-gray2'>
                 <div className='flex items-center justify-between'>
-                    <h4 className='text-[.9vw]'>What type of clients do you work with?</h4>
+                    <h4 className='text-[.9vw]'>How much time do you need for websites?</h4>
                     <span className='text-[2vw] text-gray2'>+</span>
                 </div>
             
             { expand && <div className='text-[.8vw] font-normal'>
-            We work with a range from startups to Fortune 500 companies, including some cool niches like Venture Capital firms. Sometimes we work with founders, and other times with marketing managers, but what’s most important is that our 
-            clients are ready to break the mold and refocus their brand and website 
-            with unique experiences.</div>}    
+                Typically, it’s between 8 to 12 weeks, but we also have huge 6-month projects 
+                for large enterprise clients and created campaign pages in 4 weeks.</div>}    
         </div>
         
     </div>
