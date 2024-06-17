@@ -27,7 +27,7 @@ export default function Home() {
       font-[satoshi_variable] overflow-hidden"
     >
       <Header ref={stickyElement} />
-      <Cursor stickyElement={stickyElement} />
+      <Cursor stickyElement={stickyElement}/>
       <Hero/>
       <Marquees/>
       <Projects/>
