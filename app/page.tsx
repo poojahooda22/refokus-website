@@ -25,7 +25,7 @@ export default function Home() {
       className="w-full min-h-screen 
       bg-primary text-secondary 
       font-[satoshi_variable] overflow-hidden"
-      >
+    >
       <Header ref={stickyElement} />
       <Cursor stickyElement={stickyElement} />
       <Hero/>
