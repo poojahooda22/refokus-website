@@ -55,7 +55,8 @@ function Card({width, toptitle, toptitle2, start, para}:
                             sm:py-[.5vw] 
                             rounded-full 
                             sm:mt-[1vw] 
-                            border-[1px] border-secondary'
+                            border-[1px] 
+                            border-secondary'
                         >
                             Contact us
                         </button>
