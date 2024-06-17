@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-    images: {
+  images: {
       domains: ['assets-global.website-files.com'],
     }, 
 };
