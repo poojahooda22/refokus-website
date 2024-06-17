@@ -20,7 +20,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                 justify-between mb-[1vw]'
             >
                 <p className='text-[3vw] 
-                sm:text-[.7vw]'>
+                    sm:text-[.7vw]'>
                     {toptitle}
                 </p>
                 <Image src='/arrow.svg' 
