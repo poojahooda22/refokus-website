@@ -51,7 +51,8 @@ function Card({width, toptitle, toptitle2, start, para}:
                         <button 
                             className='text-[3vw] 
                             sm:text-[.8vw]
-                            py-[3vw] px-[5vw] sm:px-[1.3vw] 
+                            py-[3vw] px-[5vw] 
+                            sm:px-[1.3vw] 
                             mt-[4vw]
                             sm:py-[.5vw] 
                             rounded-full 
