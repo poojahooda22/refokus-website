@@ -25,7 +25,7 @@ export default function Home() {
       <Header ref={stickyElement} />
       <Cursor stickyElement={stickyElement} />
       <Hero/>
-      <Marquees />
+      <Marquees/>
       <Projects/>
       <Stripes padding="py-[8vw]" />
       <Cards />
