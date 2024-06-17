@@ -30,7 +30,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                 <h3 
                     className='text-[4.6vw] 
                     font-regular sm:text-[1.2vw]'
-                    >
+                >
                     {toptitle2}
                 </h3>
             </div>    
