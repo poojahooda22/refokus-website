@@ -28,7 +28,7 @@ export default function Home() {
       <Marquees/>
       <Projects/>
       <Stripes padding="py-[8vw]"/>
-      <Cards />
+      <Cards/>
     </main>
   );
 }
