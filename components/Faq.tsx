@@ -27,7 +27,7 @@ function Faq() {
     <div>
         {data.map((item, index) => (
             <div 
-            key={index}
+                key={index}
                 onClick={toogleExpand} 
                 className='w-full  cursor-pointer 
                 py-[1vw]
