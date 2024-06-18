@@ -41,7 +41,7 @@ function Faq() {
                     <span 
                         className='text-[2vw] 
                         text-gray2'
-                        >
+                    >
                         {expand ? '-' : '+'}
                     </span>
                 </div>            
