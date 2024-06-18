@@ -31,7 +31,8 @@ function Faq() {
                 onClick={toogleExpand} 
                 className='w-full cursor-pointer 
                 py-[1vw]
-                font-regular border-b-[1px] border-gray2'
+                font-regular 
+                border-b-[1px] border-gray2'
             >
                 <div 
                     className='flex items-center 
