@@ -31,7 +31,8 @@ function Faq() {
                 className='w-full  cursor-pointer py-[1vw]
                 font-regular border-b-[1px] border-gray2'
             >
-                <div className='flex items-center justify-between'>
+                <div className='flex items-center 
+                justify-between'>
                     <h4 className='text-[.9vw]'>
                         {item.title}
                     </h4>
