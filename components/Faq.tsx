@@ -32,7 +32,8 @@ function Faq() {
                 className='w-full cursor-pointer 
                 py-[1vw]
                 font-regular 
-                border-b-[1px] border-gray2'
+                border-b-[1px] 
+                border-gray2'
             >
                 <div 
                     className='flex items-center 
