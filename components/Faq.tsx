@@ -36,7 +36,8 @@ function Faq() {
                 border-gray2'
             >
                 <div 
-                    className='flex items-center 
+                    className='flex 
+                    items-center 
                     justify-between'
                 >
                     <h4 className='text-[.9vw]'>
