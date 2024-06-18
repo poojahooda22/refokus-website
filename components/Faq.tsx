@@ -47,7 +47,7 @@ function Faq() {
                     <div 
                         className='text-[.8vw] 
                         font-normal'
-                        >
+                    >
                         {item.desc}
                     </div>}    
             </div>
