@@ -40,7 +40,8 @@ function Faq() {
                     </h4>
                     <span 
                         className='text-[2vw] 
-                        text-gray2'>
+                        text-gray2'
+                        >
                         {expand ? '-' : '+'}
                     </span>
                 </div>            
