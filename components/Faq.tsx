@@ -46,7 +46,8 @@ function Faq() {
                     expand && 
                     <div 
                         className='text-[.8vw] 
-                        font-normal'>
+                        font-normal'
+                        >
                         {item.desc}
                     </div>}    
             </div>
