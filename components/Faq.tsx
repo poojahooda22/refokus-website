@@ -34,7 +34,7 @@ function Faq() {
                 <div className='flex items-center justify-between'>
                     <h4 className='text-[.9vw]'>
                         {item.title}
-                        </h4>
+                    </h4>
                     <span className='text-[2vw] text-gray2'>
                         {expand ? '-' : '+'}
                     </span>
