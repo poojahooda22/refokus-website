@@ -29,7 +29,8 @@ function Faq() {
             <div 
                 key={index}
                 onClick={toogleExpand} 
-                className='w-full cursor-pointer 
+                className='w-full 
+                cursor-pointer 
                 py-[1vw]
                 font-regular 
                 border-b-[1px] 
