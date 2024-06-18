@@ -43,7 +43,7 @@ function Faq() {
                     </span>
                 </div>            
                 { 
-                expand && <div className='text-[.8vw] font-normal'>
+                    expand && <div className='text-[.8vw] font-normal'>
                 {item.desc}</div>}    
             </div>
         ))} 
