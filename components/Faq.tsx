@@ -32,7 +32,7 @@ function Faq() {
                 font-regular border-b-[1px] border-gray2'
             >
                 <div 
-                className='flex items-center 
+                    className='flex items-center 
                 justify-between'>
                     <h4 className='text-[.9vw]'>
                         {item.title}
