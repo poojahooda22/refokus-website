@@ -39,7 +39,8 @@ function Faq() {
                         {item.title}
                     </h4>
                     <span 
-                        className='text-[2vw] text-gray2'>
+                        className='text-[2vw] 
+                        text-gray2'>
                         {expand ? '-' : '+'}
                     </span>
                 </div>            
