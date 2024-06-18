@@ -33,7 +33,7 @@ function Faq() {
             >
                 <div 
                     className='flex items-center 
-                justify-between'>
+                    justify-between'>
                     <h4 className='text-[.9vw]'>
                         {item.title}
                     </h4>
