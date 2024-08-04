@@ -1,6 +1,6 @@
 This is 
 
-## Getting Started
+## Getting
 
 First, run the
 
