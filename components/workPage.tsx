@@ -89,7 +89,7 @@ function WorkPage() {
               -rotate-90 font-medium leading-none 
               absolute -left-1/2'
             >
-              work</h1>
+              wor</h1>
           </div>
             
             <div className='absolute sm:top-0 w-full h-full'>
