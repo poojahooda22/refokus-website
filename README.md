@@ -1,6 +1,5 @@
 
 
-# or
 bun dev
 ```
 
