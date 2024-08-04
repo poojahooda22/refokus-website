@@ -2,7 +2,6 @@
 
 
 
-(https://nextjs.org/docs/basic-features/font-optimization)
 
 ## Learn More
 
