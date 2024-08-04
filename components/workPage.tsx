@@ -88,7 +88,8 @@ function WorkPage() {
               {images.map((elem, index) => (
                 elem.isActive && (
                   <Image key={index} src={elem.url} alt="" width={1000} height={100}
-                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[14vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
+                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[14vw] 
+                    rounded-lg -translate-x-1/2 -translate-y-1/2'
                     style={{top: elem.top, left: elem.left}}
                   />
                   )
