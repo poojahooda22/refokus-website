@@ -80,15 +80,25 @@ function WorkPage() {
         <div className='relative max-w-screen-xl mx-auto text-center'>
           <div className='relative flex gap-2 pt-[60vw] sm:pt-0'>
             <h1 className='text-[52vw] lg:text-[28vw] -rotate-90 sm:rotate-0 font-medium leading-none absolute top-2/5 sm:relative -ml-8 sm:ml-0 '>work</h1>
-            <h1 className='sm:hidden text-[52vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute left-1/3'>work</h1>
-            <h1 className='sm:hidden text-[52vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute -left-1/2 '>work</h1>
+            <h1 className='sm:hidden text-[52vw] lg:text-[28vw] 
+              -rotate-90 font-medium leading-none absolute left-1/3'
+            >
+              work
+            </h1>
+            <h1 className='sm:hidden text-[52vw] lg:text-[28vw] 
+              -rotate-90 font-medium leading-none 
+              absolute -left-1/2'
+            >
+              work
+            </h1>
           </div>
             
             <div className='absolute sm:top-0 w-full h-full'>
               {images.map((elem, index) => (
                 elem.isActive && (
                   <Image key={index} src={elem.url} alt="" width={1000} height={100}
-                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[14vw] rounded-lg -translate-x-1/2 -translate-y-1/2'
+                    className='absolute w-[40vw] sm:w-[20vw] xl:w-[14vw] 
+                    rounded-lg -translate-x-1/2 -translate-y-1/2'
                     style={{top: elem.top, left: elem.left}}
                   />
                   )
@@ -97,7 +107,8 @@ function WorkPage() {
             </div>
             <p 
               className='hidden sm:inline-block text-[4.2vw] 
-              sm:text-[1.5vw] xl:text-[1vw] font-regular text-[#787878]'
+              sm:text-[1.5vw] xl:text-[1vw] 
+              font-regular text-[#787878]'
             >
               Web Design, Webflow Development, Creative Development
             </p>   
