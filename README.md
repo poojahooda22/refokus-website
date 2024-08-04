@@ -1,7 +1,6 @@
 
 
 
-yarn 
 # or
 pnpm dev
 # or
