@@ -1,6 +1,6 @@
 
 
-To learn more about Next.js
+To learn more abou
 
 - [Next.js Documentation](https://nextjs.org/docs) - lear
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
