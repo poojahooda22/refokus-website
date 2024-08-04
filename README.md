@@ -2,8 +2,7 @@
 
 
 
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+(https://nextjs.org/docs/basic-features/font-optimization)
 
 ## Learn More
 
