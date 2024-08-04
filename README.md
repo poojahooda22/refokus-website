@@ -1,6 +1,4 @@
-This is 
 
-## Getting
 
 First, run the
 
