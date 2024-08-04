@@ -1,7 +1,5 @@
 
 
-To learn
-
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
