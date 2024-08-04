@@ -1,7 +1,5 @@
 
 
-
-pm
 # or
 bun dev
 ```
