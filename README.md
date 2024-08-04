@@ -1,8 +1,5 @@
 
 
-
-
-
 To learn more about Next.js, take a
 
 - [Next.js Documentation](https://nextjs.org/docs) - lear
