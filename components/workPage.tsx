@@ -90,7 +90,7 @@ function WorkPage() {
               absolute -left-1/2'
             >
               work
-              </h1>
+            </h1>
           </div>
             
             <div className='absolute sm:top-0 w-full h-full'>
