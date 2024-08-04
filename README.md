@@ -1,8 +1,7 @@
 
 
 
-
-pnpm
+pm
 # or
 bun dev
 ```
