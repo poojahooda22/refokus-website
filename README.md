@@ -3,7 +3,7 @@
 
 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatic
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
 
 ## Learn More
 
