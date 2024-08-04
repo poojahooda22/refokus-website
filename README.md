@@ -2,7 +2,7 @@
 
 
 
-pnpm dev
+pnpm
 # or
 bun dev
 ```
