@@ -86,7 +86,8 @@ function WorkPage() {
               work
             </h1>
             <h1 className='sm:hidden text-[52vw] lg:text-[28vw] 
-            -rotate-90 font-medium leading-none absolute -left-1/2 '>work</h1>
+            -rotate-90 font-medium leading-none 
+            absolute -left-1/2 '>work</h1>
           </div>
             
             <div className='absolute sm:top-0 w-full h-full'>
